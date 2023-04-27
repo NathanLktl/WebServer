@@ -126,6 +126,17 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="DSBiblioteca.xsc">
+      <DependentUpon>DSBiblioteca.xsd</DependentUpon>
+    </Content>
+    <None Include="DSBiblioteca.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSBiblioteca.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DSBiblioteca.xss">
+      <DependentUpon>DSBiblioteca.xsd</DependentUpon>
+    </Content>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Image\bibvirt.jpg" />
     <Content Include="Scripts\bootstrap.js" />
@@ -192,6 +203,11 @@
     </Compile>
     <Compile Include="Devolucao.aspx.designer.cs">
       <DependentUpon>Devolucao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DSBiblioteca.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSBiblioteca.xsd</DependentUpon>
     </Compile>
     <Compile Include="Emprestimo.aspx.cs">
       <DependentUpon>Emprestimo.aspx</DependentUpon>
