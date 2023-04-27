@@ -16,7 +16,9 @@ namespace WebServer
 
         protected void btnBuscar_Click(object sender, EventArgs e)
         {
-
+            //DSBibliotecaTableAdapters.buscaUsuarioTableAdapter ta = new DSBibliotecaTableAdapters.buscaUsuarioTableAdapter();
+            //DSBiblioteca.buscaUsuarioDataTable dt = ta.GetUsuario(txtNome.Text);
+            //gvUsuario.DataSource = dt;
+            //gvUsuario.DataBind();
         }
-    }
 }

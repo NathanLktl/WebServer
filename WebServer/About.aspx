@@ -6,6 +6,7 @@
     Nascimento: <asp:TextBox ID="txtDataNascimento" runat="server" TextMode="Date"></asp:TextBox><br>
     <br>
     <%--<asp:GridView ID="gvDadosPessoa" runat="server"></!--asp:GridView>--%>
+     <asp:GridView ID="gvUsuario" runat="server"></asp:GridView>
     <br>
     <asp:TextBox ID="txtPesquisa" runat="server"></asp:TextBox>
     <br>
